@@ -341,7 +341,7 @@ int main()
             {
                 examen ex;
                 cin >> ex;
-                g->getvex().push_back(&ex); // se distrug elementele dupa, din cauza ca dau adresa si aobiectul de tip examen da de }
+                g->getvex().push_back(&ex);
                 break;
             }
             case 2:
